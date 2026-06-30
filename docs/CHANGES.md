@@ -1,3 +1,9 @@
+﻿# v2.0.2 - 2026-06-30
+
+## Changes
+
+- Updated for WoW Retail 12.0.7 (Interface 120007).
+
 # v2.0.0 - 2026-04-30
 
 ## Changes
