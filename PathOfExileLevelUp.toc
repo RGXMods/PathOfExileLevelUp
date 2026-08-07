@@ -2,7 +2,7 @@
 ## Version: 2.0.3
 ## Title:  |cfffa4521Path of Exile|r Level Up|cfffa4521!|r
 ## Notes:  Play a Path of Exile-inspired level-up sound!  |n|r  |cfffa4521By DonnieDice|r
-## IconTexture: Interface\AddOns\PathOfExileLevelUp\media\icon
+## IconTexture: Interface\AddOns\PathOfExileLevelUp\media\icon.tga
 ## Author: DonnieDice
 ## Category: RGX
 ## Group: RGX
