@@ -4,6 +4,8 @@
 ## Notes:  Play a Path of Exile-inspired level-up sound!  |n|r  |cfffa4521By DonnieDice|r
 ## IconTexture: Interface\AddOns\PathOfExileLevelUp\media\icon
 ## Author: DonnieDice
+## Category: RGX
+## Group: RGX
 ## SavedVariables: POELUSettings
 ## RequiredDeps: RGX-Framework
 
