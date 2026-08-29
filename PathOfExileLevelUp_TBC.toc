@@ -11,7 +11,6 @@
 ## X-Website: https://github.com/RGXMods/PathOfExileLevelUp
 ## X-Curse-Project-ID: 594588
 ## X-Wago-ID: q96dxn6O
-## X-WoWI-ID: 26262
 
 data\locales.lua
 data\core.lua
