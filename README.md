@@ -54,6 +54,29 @@ These values describe the current release metadata. The addon is deprecated, so 
 
 ***
 
+## <span style="color: #b37c44;">🌍 Language Support</span>
+
+POELU is fully localized across all 12 World of Warcraft client locales. The addon ships a single `data/locales.lua` that selects a locale block via `GetLocale()`, with an unconditional `enUS` base table providing the structural fallback — every key is present in every block. Supported locales (enUS plus eleven translations):
+
+| Locale | Native name | Block |
+|---|---|---|
+| `enUS` | English (base/fallback) | unconditional base table |
+| `deDE` | Deutsch | `deDE` |
+| `esES` | Español (Europa) | `esES` |
+| `esMX` | Español (Latinoamérica) | `esMX` |
+| `frFR` | Français | `frFR` |
+| `itIT` | Italiano | `itIT` |
+| `koKR` | 한국어 | `koKR` |
+| `ptBR` | Português (Brasil) | `ptBR` |
+| `ptPT` | Português (Portugal) | `ptPT` |
+| `ruRU` | Русский | `ruRU` |
+| `zhCN` | 简体中文 | `zhCN` |
+| `zhTW` | 繁體中文 | `zhTW` |
+
+Each TOC declares `## X-Localizations` listing all twelve locales. `ptBR` and `ptPT` use separate blocks; `esMX` has its own dedicated block (no longer sharing `esES`'s block). Every block translates the complete key set — including the shared `RGX_MODS_PREFIX` brand key — so no untranslated key can leak into the game UI.
+
+***
+
 ## <span style="color: #b37c44;">📥 Installation</span>
 
 1. Download a packaged release of PathOfExileLevelUp and install RGX-Framework.
