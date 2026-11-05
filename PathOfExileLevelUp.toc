@@ -1,4 +1,4 @@
-﻿## Interface: 120105,16001
+﻿## Interface: 120105
 ## Version: 2.0.5
 ## X-WoWI-ID: 26262
 ## Title:  |cfffa4521Path of Exile|r Level Up|cfffa4521!|r
